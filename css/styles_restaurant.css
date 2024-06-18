@@ -1,0 +1,170 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+main {
+    background-image: url('Images/star-wars-death-star-lobjmgq0es7whc97.jpeg');
+
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 10px;
+    
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 10px;
+    
+}
+
+h1, h2 {
+    font-family: 'Shrikhand';
+    transform: scaley(1.2);
+    letter-spacing: 0.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 2rem;
+    margin: 10px;
+}
+
+header {
+    height: 10vh;
+    background-color: teal ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+
+header img {
+    height: 80%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_img {
+    height: 65vh;
+    margin: 30px;
+}
+
+.title_info {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.title .primary, .title .secondary {
+    margin: 10px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.offers {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey ;
+}
+
+.offers li {
+    margin: 20px;
+}
+
+
+.primary, .secondary {
+    width: max-content;
+    color: white;
+    padding: 10px;
+}
+
+.primary a {
+    color: white;
+    text-decoration: none;
+}
+
+.primary {
+    background-color: teal;
+    font-size: 1.5rem;
+}
+
+.primary:hover {
+    background-color: rgb(0, 88, 88);
+}
+
+.secondary {
+    background-color: goldenrod;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu h2, .menu {
+    padding: 20px;
+}
+
+.dishes {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 30vw);
+    grid-template-rows: 60vh 40vh 50vh;
+    column-gap: 20px;
+    row-gap:  20px;
+    text-align: center;
+}
+
+.dishes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: scale 0.2s, filter 0.2s;
+}
+
+.dishes img:hover {
+    scale: 1.02;
+    filter: blur(1px) grayscale(0.8);
+}
+
+.grid_span_vert {
+    grid-column:  1/span 2;
+}
+
+.grid_span_hor {
+    grid-column: 2/span 2 ;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: teal;
+    height: 15vh;
+    color: azure;
+}
+
+.copyright {
+    text-align: center;
+    padding: 30px;
+}
